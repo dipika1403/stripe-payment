@@ -30,4 +30,5 @@ dependencies {
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
     compileOnly('org.projectlombok:lombok')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testCompile "com.github.tomakehurst:wiremock:2.19.0"
 }
